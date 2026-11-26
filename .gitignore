@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Database & runtime files
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+uploads/*
+!uploads/.gitkeep
+notes/*
+!notes/.gitkeep
+
+# Build Artifacts & Intermediate Outputs
+build/
+dist/
+installers/
+src-tauri/target/
+src-tauri/gen/
+src-tauri/binaries/
+graphify-out/
+*.spec
+
